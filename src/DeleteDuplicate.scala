@@ -78,6 +78,7 @@ object DeleteDuplicate extends App {
     println(length)
     println(content)
   }
+
   printByteLengthAndContent("こんにちわ")
-  printLengthAndContent("おはよう")
+  printCharLengthAndContent("おはよう")
 }
